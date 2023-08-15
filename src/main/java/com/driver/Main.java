@@ -4,7 +4,7 @@ public class Main {
     public static class Product {
 
         public int product(int x, int y) {
-            return x + y;
+            return x*y;
         }
 
         public int product(int x, int y, int z) {
@@ -16,9 +16,10 @@ public class Main {
     }
     public static void main(String[] args) {
         Product p = new Product();
-        p.product(2, 3);
-        p.product(22, 33, 44);
-        p.product(2.3, 4.6);
+        System.out.println(p.product(1,2));
+        System.out.println(p.product(1,2,5));
+        System.out.println(p.product(4.2,7.1));
+
     }
 
 }
