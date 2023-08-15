@@ -11,14 +11,14 @@ public class Main {
             return x + y + z;
         }
         public double product(double x, double y) {
-            return x + y;
+            return x * y;
         }
     }
     public static void main(String[] args) {
         Product p = new Product();
-        System.out.println(p.product(1,2));
-        System.out.println(p.product(1,2,5));
-        System.out.println(p.product(4.2,7.1));
+        System.out.println(p.product(3,5));
+        System.out.println(p.product(4,3,2));
+        System.out.println(p.product(4.8,5.7));
 
     }
 
